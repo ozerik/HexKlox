@@ -1,8 +1,8 @@
-# SoClocks
+# HexKlox
 A six-channel clock generator with 0.1BPM accuracy and variable clock divisions and start points WITH SWING
 
               MODULAR FOR THE MASSES
-                    SO CLOCKS
+                    HexKlox
              Juanito Moore, April 2021
 
 This is a six-channel clock. The channels can be set to     send triggers every 16th note, every 8th, quarter note,     half note, et cetera, up to 64 bars or even MORE. It     displays the BPM, and this clock can do swing, even with     an external trigger.
