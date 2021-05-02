@@ -29,5 +29,6 @@ With an external trigger connected, the module will automatically use the incomi
 
 
 Version history:
+ 1.01 OLED version for use with the SSD1306 OLED 128x64 pixel display. Uses the Adafruit libraries
  1.00 released on April 28, 2021, initial release
 
