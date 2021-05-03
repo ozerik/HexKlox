@@ -66,8 +66,20 @@ Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 
 
     Version history:
+      1.01 OLED VERSION -- modded by Lacó Modular (Jeremie Agnone)*
+      1.01 modified to work with a bare Atmega328 DIP IC, also changed the project name to HexKlox
       1.00 released on April 28, 2021, initial release
 
+
+  * When using this OLED sketch, the potentiometer center pin needs to be connected to
+  Arduino pin A7, and the OLED display module's SCL and SDA pins need to connect to the
+  Arduino Nano (or Uno) like this:
+Arduino  OLED
+A4-------SDA
+A5-------SCL
+  If you need to use a bare DIP without the A6 or A7 pins, you can search this sketch for
+  the one time it says A7, and change that to A3, and connect the potentiometer to that
+  pin and you'll be all good (I think).
 
 
 */
